@@ -17,14 +17,14 @@ students = [{"name": "Steve", "score": 88}, {"name": "Becky", "score": 99}, {"na
 for student in students:
     #print(student)
     if student['score'] >= 90:
-        print(f"Student: {student['name']} got an A\n")
+        print(f"{student['name']} got an A\n")
     elif student['score'] >= 80:
-        print(f"Student: {student['name']} got a B\n")
+        print(f"{student['name']} got a B\n")
     elif student['score'] >= 70:
-        print(f"Student: {student['name']} got a C\n")
+        print(f"{student['name']} got a C\n")
     elif student['score'] >= 60:
-        print(f"Student: {student['name']} got a D\n")
+        print(f"{student['name']} got a D\n")
     else:
-        print(f"Student: {student['name']} got a F\n")
+        print(f"{student['name']} got a F\n")
 
 
